@@ -1,0 +1,115 @@
+
+#title{
+  background-color: #20c997;
+  font-family: 'Noto Sans',sans-serif;
+  height:1000px;
+}
+
+#call-to-action {
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  text-align: center;
+  line-height: 1;
+  background-color: #20c997;
+}
+#footer {
+  padding-top: 2rem;
+  text-align: center;
+}
+#features {
+  padding: 7% 15%;
+  line-height: 2;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+.truck{
+  height:400px;
+  width:400px;
+  margin: auto;
+  display:block;
+  padding-top: 1rem;
+  position: absolute;
+}
+.top-big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+}
+/* Navigation bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  }
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Noto Sans';
+}
+.collapse navbar-collapse {
+  color:#6c757d;
+}
+/* slideshow */
+
+.slideshow-img{
+  height:1200px;
+  width:1500px;
+  display: block;
+
+}
+
+/* features */
+.icon {
+  color:#00bdaa;
+}
+.icon:hover {
+  color:#20c997;
+}
+
+/* contact.hmtl */
+.hr-contact {
+  border:1px solid black;
+  width: 50%;
+}
+.container-lg {
+  height:1000px;
+  text-align: center;
+}
+.container {
+  text-align:center;
+}
+.mission {
+  font-size: 40px;
+}
+/* CTA */
+
+/* media-queries */
+@media (max-width: 992px) {
+  .truck {
+    position:static;
+  }
+  #title{
+    text-align:center;
+    height:1200px;
+  }
+  #features {
+    text-align: center;
+  }
+  .slideshow-img {
+    width:790px;
+    height:600px;
+    margin-right: 80px;
+  }
+  .carousel-inner {
+    background-color: #20c997;
+  }
+}
+/* 992px is the breakpoint of image position change */
